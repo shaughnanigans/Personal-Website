@@ -1,0 +1,137 @@
+@import "./styles/utils/colors.scss";
+@import "./styles/utils/mixins.scss";
+
+* {
+	padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: $white;
+    color: $black2;
+
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    width: max-content;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn {
+    &.primary {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: $blue;
+        font-weight: 700;
+        font-size: pxToEm(16);
+        letter-spacing: pxToEm(1.5);
+        transition: ease-out 0.4s;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            svg {
+                transition: 0.2s ease-in-out;
+                margin-left: 5px;
+            }
+        }
+
+        &:focus {
+            border-bottom: 1px solid $blue;
+        }
+    }
+}
+
+.layout__section {
+    max-width: pxToEm(1200);
+    margin: 0 auto;
+
+    h1 {
+        font-family: 'Jost', sans-serif;
+        font-size: pxToEm(60);
+        margin-bottom: 0;
+
+        @include tablet {
+            font-size: pxToEm(80);
+        }
+    }
+
+    h2 {
+        font-family: 'Jost', sans-serif;
+        font-size: pxToEm(45);
+        margin-bottom: 0;
+
+        @include tablet {
+            font-size: pxToEm(60);
+        }
+    }
+
+    h3 {
+        font-family: 'Jost', sans-serif;
+        font-size: pxToEm(20);
+        margin-bottom: 0;
+
+        @include tablet {
+            font-size: pxToEm(30);
+        }
+    }
+
+    h4 {
+        font-family: 'Jost', sans-serif;
+        text-transform: uppercase;
+        font-size: pxToEm(14);
+        margin-bottom: 0;
+
+        span {
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+      
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: pxToEm(0.25);
+        line-height: pxToEm(35);
+        margin-bottom: 0;
+        padding-top: pxToEm(5);
+        padding-bottom: pxToEm(5);
+
+        a {
+            font-family: 'Jost', sans-serif;
+            color: $black2;
+            border-bottom: 2px solid $black2;
+            font-style: italic;
+
+            &:hover,
+            &:focus {
+                color: $blue;
+                border-bottom: 2px solid $blue;
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+
+    .name {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: pxToEm(30);
+        color: $blue;
+        letter-spacing: pxToEm(1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        @include tablet {
+            justify-content: flex-start;
+        }
+    }
+}

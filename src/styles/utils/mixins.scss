@@ -1,0 +1,16 @@
+@mixin mobile {
+    @media (min-width: 320px) { @content; }
+}
+@mixin tablet {
+    @media (min-width: 768px) { @content; }
+}
+@mixin desktop {
+    @media (min-width: 1024px) { @content; }
+}
+@mixin mobileMenu {
+    @media (max-width: 767px) { @content; }
+}
+
+@function pxToEm($size, $base: 16) {
+  @return #{$size/$base}em;
+}

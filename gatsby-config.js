@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Personal Website",
+    title: "Lexi Shaughnessy | Personal Website",
+    description: "Lexi Shaughnessy is based in Calgary, Alberta who is open to new opportunities",
+    keywords: "web developer, developer, analyst, react, html, css, javascript, analysis, content entry",
+    siteUrl: 'https://lexishaughnessy.com',
+    titleTemplate: "%s · Personal Website",
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -8,7 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "G-YBYJYZJXQC",
       },
     },
     "gatsby-plugin-react-helmet",
@@ -18,24 +22,37 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-plugin-mdx",
+    "gatsby-plugin-offline",
+    "gatsby-plugin-robots-txt",
+    "gatsby-plugin-preload-fonts",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-transformer-remark",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
-      __key: "images",
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: `src`,
+        path: `${__dirname}/src/`,
       },
-      __key: "pages",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/projects`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-emoji-favicon',
+      options: {
+        emoji: '🌼'
+      }
     },
   ],
 };

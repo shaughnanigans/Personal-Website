@@ -1,0 +1,13 @@
+@import "../styles/utils/colors.scss";
+@import "../styles/utils/mixins.scss";
+
+.wrapper.error {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+    @include tablet {
+        padding-top: 80px;
+    }
+}

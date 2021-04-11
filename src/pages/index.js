@@ -90,7 +90,7 @@ const Homepage  = ({data}) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="name"><IoIosArrowBack />/lexi shaughnessy<IoIosArrowForward /></div>
+                        {/* <div className="name"><IoIosArrowBack />/lexi shaughnessy<IoIosArrowForward /></div> */}
                     </section>
                 </Fade>
             </Layout>

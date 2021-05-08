@@ -11,7 +11,7 @@ const Navigation = () => {
                 <nav className="menu">
                     <Link to="/" className="menu__link-first name"><IoIosArrowBack />lexi shaughnessy<IoIosArrowForward /></Link>
                     <ul>
-                        <li><AnchorLink href="#projects" className="menu__link">projects</AnchorLink></li><span className="separator"><IoIosCode /></span>
+                        <li><AnchorLink href="#projects" className="menu__link">portfolio</AnchorLink></li><span className="separator"><IoIosCode /></span>
                         <li><AnchorLink href="#contact" className="menu__link">contact</AnchorLink></li>
                     </ul>
                 </nav>

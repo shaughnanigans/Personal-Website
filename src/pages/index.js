@@ -50,7 +50,7 @@ const Homepage  = ({data}) => {
                     <section className="portfolio__section" id="projects">
                         <div className="wrapper portfolio">
                             <h2>Portfolio</h2>
-                            <p style={{paddingBottom:'40px'}}>I have experience with data entry, webpage building, web accessibility, SEO, and maintaining modules on sites post-launch to ensure everything is up to date and more secure. Unfortunately, some of the projects I have worked on no longer exist on the internet, but please feel free to check out what I have been up to lately...</p>
+                            <p style={{paddingBottom:'40px'}}>I have experience with data entry, webpage building, website accessibility, SEO, and maintaining modules on sites post-launch to ensure everything is up to date and more secure. Unfortunately, some of the projects I have worked on no longer exist on the internet, but please feel free to check out what I have been up to lately...</p>
                             <div className="row">
                                 {data.allMarkdownRemark.edges.map(({ node }) => (
                                     <div className="row-card default" key={node.id}>
@@ -77,7 +77,7 @@ const Homepage  = ({data}) => {
                             <h2 style={{paddingBottom:'40px'}}>Get In Touch</h2>
                             <div className="social-icons">
                                 <div className="social-icons__email">
-                                    <a href="mailto:l.shaughnessy@hotmail.com">
+                                    <a href="mailto:lexishaughnessy@gmail.com">
                                         <RiMailLine />
                                         <span>Email</span>
                                     </a>

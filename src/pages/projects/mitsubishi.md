@@ -5,6 +5,7 @@ thumbnailAlt: "this is the image alt"
 liveSiteURL: "https://www.mitsubishicars.com"
 languagesUsed: "Freemarker | TeamSite | JS | SASS"
 date: "April 6, 2021"
+projectStatus: "Complete"
 ---
 
 #### Task

@@ -6,7 +6,7 @@ import Layout from '../Layout';
 import {GatsbyImage, getImage} from "gatsby-plugin-image";
 import Fade from 'react-reveal/Fade';
 import { RiMailLine, RiLinkedinBoxLine } from 'react-icons/ri';
-import {IoIosArrowForward, IoIosArrowBack} from "react-icons/io";
+import {IoIosArrowForward} from "react-icons/io";
 import PropTypes from "prop-types"
 
 const aboutMe = [
@@ -37,7 +37,7 @@ const Homepage  = ({data}) => {
     return (
         <>
             <Layout>
-                <Seo title="" lang="en" />
+                <Seo title="Lexi Shaughnessy" />
                 <Fade>
                     <section className="homepage__section">
                         <div className="wrapper intro">
@@ -61,6 +61,7 @@ const Homepage  = ({data}) => {
                                             <div className="content">
                                                 <h3>{node.frontmatter.title}</h3>
                                                 <p><strong>Tech Used:</strong> <span>{node.frontmatter.languagesUsed}</span></p>
+                                                <p className="status">{node.frontmatter.projectStatus}</p>
                                                 <div className="copy">
                                                     {<div dangerouslySetInnerHTML={{ __html: node.html}}/>}
                                                     { node.frontmatter.liveSiteURL ? <a className="btn primary" href={node.frontmatter.liveSiteURL} target="_blank" rel="noreferrer">live site <IoIosArrowForward /></a> : null }
@@ -111,6 +112,7 @@ query {
             liveSiteURL
             date
             languagesUsed
+            projectStatus
             thumbnail {
               childImageSharp {
                 gatsbyImageData

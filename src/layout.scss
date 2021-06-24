@@ -33,14 +33,14 @@ a {
         font-size: pxToEm(16);
         letter-spacing: pxToEm(1.5);
         transition: ease-out 0.4s;
-        margin-bottom: 10px;
+        margin-bottom: pxToEm(10);
         cursor: pointer;
         transition: 0.2s ease-in-out;
 
         &:hover {
             svg {
                 transition: 0.2s ease-in-out;
-                margin-left: 5px;
+                margin-left: pxToEm(5);
             }
         }
 

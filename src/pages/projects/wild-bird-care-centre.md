@@ -4,6 +4,7 @@ thumbnail: "image-unavailable.png"
 thumbnailAlt: "Website images not available"
 languagesUsed: "HTML | JS | CSS"
 date: "April 5, 2013"
+projectStatus: "Complete"
 ---
 
 #### Task

@@ -5,6 +5,7 @@ thumbnailAlt: "this is the image alt"
 liveSiteURL: "https://www.nissanusa.com/titan-tech-for-doing-it-yourself/"
 languagesUsed: "React | Storybook | Styled Components | Lerna"
 date: "April 7, 2021"
+projectStatus: "Complete"
 ---
 #### Task
 

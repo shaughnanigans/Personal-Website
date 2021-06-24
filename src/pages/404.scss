@@ -2,12 +2,12 @@
 @import "../styles/utils/mixins.scss";
 
 .wrapper.error {
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: pxToEm(40);
+    padding-left: pxToEm(20);
+    padding-right: pxToEm(20);
     text-align: center;
 
     @include tablet {
-        padding-top: 80px;
+        padding-top: pxToEm(80);
     }
 }

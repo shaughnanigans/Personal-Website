@@ -1,10 +1,11 @@
 ---
 title: "The Grand Theatre London"
 thumbnail: "grand-theatre.png"
-thumbnailAlt: "this is the image alt"
-liveSiteURL: "https://www.nissanusa.com"
+thumbnailAlt: "Grand Theatre Homepage"
+liveSiteURL: "https://www.grandtheatre.com/"
 languagesUsed: "Drupal 7 | Tessitura"
 date: "April 5, 2017"
+projectStatus: "Complete"
 ---
 
 #### Task

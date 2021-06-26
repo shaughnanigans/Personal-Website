@@ -3,7 +3,7 @@ title: "Merritt Notary"
 thumbnail: "image-unavailable.png"
 thumbnailAlt: "Merritt Notary - Image not Available"
 # liveSiteURL: "/"
-languagesUsed: "Gatsby | JSON | React | Figma | Netlify | Google My Business"
+languagesUsed: "Gatsby | JSON | React | Figma | Sass | Google My Business"
 date: "June 10, 2021"
 projectStatus: "In Progress"
 ---

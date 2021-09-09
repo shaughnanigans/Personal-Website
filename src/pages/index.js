@@ -50,7 +50,7 @@ const Homepage  = ({data}) => {
                     <section className="portfolio__section" id="projects">
                         <div className="wrapper portfolio">
                             <h2>Portfolio</h2>
-                            <p style={{paddingBottom:'40px'}}>I have experience with data entry, webpage building, website accessibility, SEO, and maintaining modules on sites post-launch to ensure everything is up to date and more secure. Please feel free to check my most recent projects...</p>
+                            <p style={{paddingBottom:'40px'}}>I have experience with data entry, webpage building, website accessibility, SEO, and maintaining modules on sites post-launch to ensure everything is up to date and more secure. Please feel free to check out my most recent projects...</p>
                             <div className="row">
                                 {data.allMarkdownRemark.edges.map(({ node }) => (
                                     <div className="row-card default" key={node.id}>

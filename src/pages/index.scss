@@ -99,9 +99,9 @@
                 }
 
                 .status {
-                    border-left: 5px solid $blue;
+                    border-left: 3px solid $blue;
                     font-family: 'Jost', sans-serif;
-                    padding: pxToEm(5);
+                    padding: pxToEm(3) 0 pxToEm(3) pxToEm(5);
                     margin-top: pxToEm(10);
                 }
             }

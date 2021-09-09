@@ -1,11 +1,11 @@
 ---
 title: "Merritt Notary"
-thumbnail: "image-unavailable.png"
-thumbnailAlt: "Merritt Notary - Image not Available"
-# liveSiteURL: "/"
-languagesUsed: "Gatsby | JSON | React | Figma | Sass | Google My Business"
+thumbnail: "merritt-notary.png"
+thumbnailAlt: "Merritt Notary website landing page"
+liveSiteURL: "https://www.merrittnotary.ca"
+languagesUsed: "Gatsby | JSON | React | Figma | Sass | Netlify | Git | NPM | Google My Business"
 date: "June 10, 2021"
-projectStatus: "In Progress"
+projectStatus: "Complete"
 ---
 
 #### Task

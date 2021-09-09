@@ -42,7 +42,7 @@ const Homepage  = ({data}) => {
                 <Fade>
                     <section className="homepage__section">
                         <div className="wrapper intro">
-                            <h1>Hi there!<span role="img" aria-label="Hand Waving emoji">👋</span> I'm Lexi...</h1>
+                            <h1>Hi there! <span role="img" aria-label="Hand Waving emoji">👋</span> I'm Lexi...</h1>
                             <p className="about-me">{randomAboutMe.excerpt} <span role="img" aria-label={`${randomAboutMe.ariaLabel} emoji`}>{randomAboutMe.emoji}</span></p>
                             <p>I am currently working as a front-end web developer at a digital marketing agency in Calgary, AB.</p>
                         </div>

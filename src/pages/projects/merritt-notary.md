@@ -4,7 +4,7 @@ thumbnail: "merritt-notary.png"
 thumbnailAlt: "Merritt Notary website landing page"
 liveSiteURL: "https://www.merrittnotary.ca"
 languagesUsed: "Gatsby | GraphQL | JSON | React | Figma | Sass | Netlify | Git | NPM | Google My Business"
-date: "June 10, 2021"
+date: "July 10, 2021"
 projectStatus: "Complete"
 ---
 

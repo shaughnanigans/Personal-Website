@@ -1,7 +1,7 @@
 ---
 title: "Mitsubishi Motors North America"
 thumbnail: "mitsubishi.png"
-thumbnailAlt: "this is the image alt"
+thumbnailAlt: "Mitsubishi Motors North America Homepage"
 liveSiteURL: "https://www.mitsubishicars.com"
 languagesUsed: "Freemarker | TeamSite | JS | SASS"
 date: "April 6, 2021"

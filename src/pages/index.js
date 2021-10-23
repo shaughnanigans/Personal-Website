@@ -10,13 +10,13 @@ import {IoIosArrowForward} from "react-icons/io";
 import PropTypes from "prop-types"
 
 const aboutMe = [
-    {excerpt: "I am a plant mom", emoji: "🌱", ariaLabel: "seedling"}, 
-    {excerpt: "I am a baker", emoji: "🍰", ariaLabel: "shortcake"}, 
-    {excerpt: "I am a traveler", emoji: "✈️", ariaLabel: "airplane taking off"}, 
-    {excerpt: "I am a creator", emoji: "🖌️", ariaLabel:"paintbrush"}, 
-    {excerpt: "I am a pun-lover", emoji: "🤣", ariaLabel: "rolling on the floor laughing"}, 
-    {excerpt: "I am a lifetime student", emoji:"👩‍🎓", ariaLabel: "woman graduating"},
-    {excerpt: "I am an environmentalist", emoji: "💚", ariaLabel: "green heart"},
+    {excerpt: "I am a plant mom", emoji: "🌱", ariaLabel: "seedling emoji"}, 
+    {excerpt: "I am a baker", emoji: "🍰", ariaLabel: "shortcake emoji"}, 
+    {excerpt: "I am a traveler", emoji: "✈️", ariaLabel: "airplane taking off emoji"}, 
+    {excerpt: "I am a creator", emoji: "🖌️", ariaLabel:"paintbrush emoji"}, 
+    {excerpt: "I am a pun-lover", emoji: "🤣", ariaLabel: "rolling on the floor laughing emoji"}, 
+    {excerpt: "I am a lifetime student", emoji:"👩‍🎓", ariaLabel: "woman graduating emoji"},
+    {excerpt: "I am an environmentalist", emoji: "💚", ariaLabel: "green heart emoji"},
     {excerpt: "I am always asking why?", emoji: "💭", ariaLabel: "thinking face emoji"},
     {excerpt: "I am a coffee drinker", emoji: "☕", ariaLabel: "coffee emoji"},
     {excerpt: "I like to take photos with my Canon camera", emoji: "📸", ariaLabel: "camera with flash emoji"}
@@ -44,13 +44,12 @@ const Homepage  = ({data}) => {
                         <div className="wrapper intro">
                             <h1>Hi there! <span role="img" aria-label="Hand Waving emoji">👋</span> I'm Lexi...</h1>
                             <p className="about-me">{randomAboutMe.excerpt} <span role="img" aria-label={`${randomAboutMe.ariaLabel} emoji`}>{randomAboutMe.emoji}</span></p>
-                            <p>I am currently working as a front-end web developer at a digital marketing agency in Calgary, AB.</p>
+                            <p>I am currently a Content Developer with experience in data entry, website building, website accessibility, SEO, and maintaining modules on sites post-launch to ensure everything is up to date and more secure. Please feel free to check out my most recent projects...</p>
                         </div>
                     </section>
                     <section className="portfolio__section" id="projects">
                         <div className="wrapper portfolio">
-                            <h2>Portfolio</h2>
-                            <p style={{paddingBottom:'40px'}}>I have experience with data entry, webpage building, website accessibility, SEO, and maintaining modules on sites post-launch to ensure everything is up to date and more secure. Please feel free to check out my most recent projects...</p>
+                            <h2 style={{paddingBottom:'40px'}}>Portfolio</h2>
                             <div className="row">
                                 {data.allMarkdownRemark.edges.map(({ node }) => (
                                     <div className="row-card default" key={node.id}>

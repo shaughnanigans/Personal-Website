@@ -5,7 +5,7 @@ thumbnailAlt: "Nissan USA homepage"
 liveSiteURL: "https://www.nissanusa.com"
 languagesUsed: "AEM | SASS | jQuery | Handlebars | Sass"
 date: "July 2, 2021"
-projectStatus: "N/A"
+# projectStatus: "N/A"
 ---
 
 #### Task

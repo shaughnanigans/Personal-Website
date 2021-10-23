@@ -60,9 +60,9 @@ const Homepage  = ({data}) => {
                                             <div className="content">
                                                 <h3>{node.frontmatter.title}</h3>
                                                 <p><strong>Tech Used:</strong> <span>{node.frontmatter.languagesUsed}</span></p>
-                                                <p className="status">{node.frontmatter.projectStatus}</p>
+                                                { node.frontmatter.projectStatus ? <p className="status">{node.frontmatter.projectStatus}</p> : null }
                                                 <div className="copy">
-                                                    {<div dangerouslySetInnerHTML={{ __html: node.html}}/>}
+                                                    { <div dangerouslySetInnerHTML={{ __html: node.html}}/> }
                                                     { node.frontmatter.liveSiteURL ? <a className="btn primary" href={node.frontmatter.liveSiteURL} target="_blank" rel="noreferrer">live site <IoIosArrowForward /></a> : null }
                                                 </div>
                                             </div>

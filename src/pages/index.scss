@@ -21,6 +21,12 @@
         padding: 0 pxToEm(20);
     }
 
+    .portfolio-title {
+        @include tablet {
+            padding-bottom: 40px;
+        }
+    }
+
     .row {
         display: flex;
         flex-direction: row;

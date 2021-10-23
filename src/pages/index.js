@@ -49,7 +49,7 @@ const Homepage  = ({data}) => {
                     </section>
                     <section className="portfolio__section" id="projects">
                         <div className="wrapper portfolio">
-                            <h2 style={{paddingBottom:'40px'}}>Portfolio</h2>
+                            <h2 className="portfolio-title">Portfolio</h2>
                             <div className="row">
                                 {data.allMarkdownRemark.edges.map(({ node }) => (
                                     <div className="row-card default" key={node.id}>

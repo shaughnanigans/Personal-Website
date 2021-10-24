@@ -60,6 +60,7 @@ a {
         font-family: 'Jost', sans-serif;
         font-size: pxToEm(60);
         margin-bottom: 0;
+        line-height: pxToEm(18);
 
         @include tablet {
             font-size: pxToEm(80);

@@ -12,7 +12,6 @@ function SEO({title}) {
                     siteMetadata {
                         title
                         description
-                        keywords
                     }
                 }
             }
@@ -23,7 +22,6 @@ function SEO({title}) {
                 <title>{title}</title>
                 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&amp;family=Montserrat:wght@700&amp;family=Source+Sans+Pro:wght@400;700&amp;display=swap" rel="stylesheet" />
                 <meta name="description" content={data.site.siteMetadata.description} />
-                <meta name="keywords" content={data.site.siteMetadata.keywords} />
             </Helmet>
         )}
       />

@@ -3,7 +3,7 @@ title: "Nissan USA - ADA"
 thumbnail: "nissan.png"
 thumbnailAlt: "Nissan USA homepage"
 liveSiteURL: "https://www.nissanusa.com"
-languagesUsed: "AEM | SASS | jQuery | Handlebars | Sass"
+languagesUsed: "AEM | jQuery | Handlebars | Sass"
 date: "July 2, 2021"
 # projectStatus: "N/A"
 ---

@@ -3,7 +3,7 @@ title: "Mitsubishi Motors North America"
 thumbnail: "mitsubishi.png"
 thumbnailAlt: "Mitsubishi Motors North America Homepage"
 liveSiteURL: "https://www.mitsubishicars.com"
-languagesUsed: "Freemarker | TeamSite | JS | SASS"
+languagesUsed: "Freemarker | TeamSite | JS | Sass"
 date: "April 6, 2021"
 projectStatus: "Complete"
 ---

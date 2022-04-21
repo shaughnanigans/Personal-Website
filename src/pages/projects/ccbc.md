@@ -1,11 +1,11 @@
 ---
 title: "Calgary Craft Beer Club"
-thumbnail: "image-unavailable.png"
+thumbnail: "ccbc.png"
 thumbnailAlt: "Calgary Craft Beer Club Hero Section"
-# liveSiteURL: ""
-languagesUsed: "Gatsby | GraphQL | React | Figma | Sass | Netlify | Git | NPM | DatoCMS"
+liveSiteURL: "https://yyccraftbeerclub.com"
+languagesUsed: "Gatsby | GraphQL | React | Figma | Sass | Netlify | Git | NPM"
 date: "October 22, 2021"
-projectStatus: "In Progress"
+projectStatus: "Complete"
 ---
 
 #### Task

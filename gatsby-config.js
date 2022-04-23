@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Lexi Shaughnessy | Personal Website",
-    description: "Lexi Shaughnessy is based in Calgary, Alberta who is open to new opportunities",
-    keywords: "web developer, developer, analyst, react, html, css, javascript, analysis, content entry",
+    description: "Lexi Shaughnessy (she/her) is based in Calgary, Alberta. Over the past seven years, she has gained experience in web development, website maintenance, accessibility, content creation and data entry. She is always striving to learn new things.",
     siteUrl: 'https://lexishaughnessy.com',
     titleTemplate: "%s · Personal Website",
   },
